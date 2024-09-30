@@ -1,3 +1,7 @@
+script:
+# select proper step in your build execution and add this line before it
+ - sudo netstat -tulpn
+
 language: node_js
 node_js:
   - "stable"
@@ -8,3 +12,6 @@ deploy:
   local_dir: build
   on:
     branch: main
+
+
+ dist: xenial
