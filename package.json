@@ -2,7 +2,7 @@
   "name": "COMP 3104 SPA deployment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yyyyt36834.github.io/COMP3104",  
+  "homepage": "https://yyyyt36834.github.io/COMP3104",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\"",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -37,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.37.2",
+    "gh-pages": "^6.2.0"
   }
 }
