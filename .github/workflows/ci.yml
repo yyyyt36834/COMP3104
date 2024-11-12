@@ -38,7 +38,7 @@ on:
         with:
           node-version: '20.x' #Use the approproate Node.js version for our project
 
-      - name: Install dependencies:
+      - name: Install dependencies
         run: npm install
 
       - name: Build the app
